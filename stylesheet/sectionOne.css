@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-one {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: stretch; */
+    background: #1F2937;
+    padding: 0 10%;
+}
+
+.section-one .header-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid blue;
+}
