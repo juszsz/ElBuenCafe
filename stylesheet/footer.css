@@ -1,0 +1,11 @@
+.footer {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 30px;
+    height: 480px;
+    /* background: #e5e7eb; */
+    padding: 0 15%;
+}
